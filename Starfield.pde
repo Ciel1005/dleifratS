@@ -3,7 +3,7 @@ Particle [] atom;
 void setup(){
  size(500,500);
 
- atom = new Particle[100];
+ atom = new Particle[250];
   for(int i = 0; i < 50; i++){
    atom[i] = new Oddball();
    atom[0] = new Man();
